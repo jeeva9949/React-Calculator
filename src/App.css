@@ -1,4 +1,77 @@
 .App {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+input {
+  width: 250px;
+  height: 30px;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size:1rem;
+}
+
+.result-btn {
+  color: white;
+  background-color: #61dafb;
+  font-size: 1.6rem;
+  border: 1px solid white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn{
+  font-size:1.5rem;
+  margin-left:2rem;
+  background-color: skyblue;
+  color:black;
+  padding:5px 15px;
+
+}
+.btn:hover{
+  color:white;
+}
+.number-two{
+  margin-top:1.5rem;
+}
+.number-three{
+  margin-top:1.5rem;
+}
+.opertor-section{
+  margin-top:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
   text-align: center;
 }
 
